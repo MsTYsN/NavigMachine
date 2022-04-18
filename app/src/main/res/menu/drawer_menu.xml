@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_machine"
+            android:title="Liste des machines" />
+        <item android:title="Statistiques">
+            <menu>
+                <item
+                    android:id="@+id/nav_graph1"
+                    android:title="Nombre des machines par marque" />
+                <item
+                    android:id="@+id/nav_graph2"
+                    android:title="Nombre des machines achetées par année" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Se déconnecter" />
+    </group>
+</menu>
