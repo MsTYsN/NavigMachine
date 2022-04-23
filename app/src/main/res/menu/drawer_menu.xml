@@ -8,16 +8,16 @@
             android:id="@+id/nav_machine"
             android:icon="@drawable/ic_baseline_list_alt_24"
             android:title="Liste des machines" />
-        <item android:title="Statistiques">
+        <item android:title="Statistiques : Nombre de machines">
             <menu>
                 <item
                     android:id="@+id/nav_graph1"
                     android:icon="@drawable/ic_baseline_bar_chart_24"
-                    android:title="Nombre des machines par marque" />
+                    android:title="Par marque" />
                 <item
                     android:id="@+id/nav_graph2"
                     android:icon="@drawable/ic_baseline_bar_chart_24"
-                    android:title="Nombre des machines achetées par année" />
+                    android:title="Par année" />
             </menu>
         </item>
         <item
