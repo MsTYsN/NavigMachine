@@ -6,19 +6,23 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_machine"
+            android:icon="@drawable/ic_baseline_list_alt_24"
             android:title="Liste des machines" />
         <item android:title="Statistiques">
             <menu>
                 <item
                     android:id="@+id/nav_graph1"
+                    android:icon="@drawable/ic_baseline_bar_chart_24"
                     android:title="Nombre des machines par marque" />
                 <item
                     android:id="@+id/nav_graph2"
+                    android:icon="@drawable/ic_baseline_bar_chart_24"
                     android:title="Nombre des machines achetées par année" />
             </menu>
         </item>
         <item
             android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
             android:title="Se déconnecter" />
     </group>
 </menu>

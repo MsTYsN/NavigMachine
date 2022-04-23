@@ -4,13 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProjects/NavigMachine/app/src/main/res/layout/activity_home.xml" value="0.16983695652173914" />
+        <entry key="..\:/AndroidProjects/NavigMachine/app/src/main/res/layout/activity_login.xml" value="0.16983695652173914" />
         <entry key="..\:/AndroidProjects/NavigMachine/app/src/main/res/layout/activity_main.xml" value="0.16983695652173914" />
         <entry key="..\:/AndroidProjects/NavigMachine/app/src/main/res/layout/activity_splash.xml" value="0.16983695652173914" />
         <entry key="..\:/AndroidProjects/NavigMachine/app/src/main/res/layout/fragment_graphannee.xml" value="0.16983695652173914" />
         <entry key="..\:/AndroidProjects/NavigMachine/app/src/main/res/layout/fragment_graphmachine.xml" value="0.16983695652173914" />
         <entry key="..\:/AndroidProjects/NavigMachine/app/src/main/res/layout/fragment_machine.xml" value="0.16983695652173914" />
         <entry key="..\:/AndroidProjects/NavigMachine/app/src/main/res/layout/machine_item.xml" value="0.264" />
-        <entry key="..\:/AndroidProjects/NavigMachine/app/src/main/res/layout/nav_header.xml" value="0.11302083333333333" />
+        <entry key="..\:/AndroidProjects/NavigMachine/app/src/main/res/layout/nav_header.xml" value="0.16799999999999998" />
         <entry key="..\:/AndroidProjects/NavigMachine/app/src/main/res/menu/drawer_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidProjects/NavigMachine/app/src/main/res/menu/top_menu.xml" value="0.25416666666666665" />
       </map>

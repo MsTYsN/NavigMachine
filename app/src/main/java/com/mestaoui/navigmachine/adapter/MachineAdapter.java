@@ -86,6 +86,10 @@ public class MachineAdapter extends RecyclerView.Adapter<MachineAdapter.MachineV
                 for (Machine m : machines) {
                     if (m.getMarque().getCode().toLowerCase().startsWith(filterPattern)) {
                         machinesFilter.add(m);
+                    }else if(m.getReference().toLowerCase().startsWith(filterPattern)) {
+                        machinesFilter.add(m);
+                    }else if(String.valueOf(m.getPrix()).startsWith(filterPattern)) {
+                        machinesFilter.add(m);
                     }
                 }
             }
