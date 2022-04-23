@@ -16,12 +16,13 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.material.textfield.TextInputLayout;
 import com.mestaoui.navigmachine.beans.User;
 
 
 public class LoginActivity extends AppCompatActivity {
     private static final String TAG = "LoginActivity";
-    private EditText username, motdepasse;
+    private TextInputLayout username, motdepasse;
     private Button connect;
     RequestQueue requestQueue;
     @Override
@@ -37,10 +38,10 @@ public class LoginActivity extends AppCompatActivity {
         connect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(username.getText().toString().isEmpty() || motdepasse.getText().toString().isEmpty()) {
+                if(username.getEditText().getText().toString().isEmpty() || motdepasse.getEditText().getText().toString().isEmpty()) {
                     Toast.makeText(LoginActivity.this, "Veuillez remplir tous les champs vides !", Toast.LENGTH_SHORT).show();
                 }else {
-                    User user = new User(username.getText().toString(), motdepasse.getText().toString());
+                    User user = new User(username.getEditText().getText().toString(), motdepasse.getEditText().getText().toString());
                     String uri = String.format("http://10.0.2.2:8090/login?username=%1$s&password=%2$s",
                             user.getUsername(),
                             user.getPassword());
